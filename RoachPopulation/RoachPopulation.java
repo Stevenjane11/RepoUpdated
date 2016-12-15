@@ -1,3 +1,4 @@
+package RoachPopulation;
 
 import java.util.TimerTask;
 
@@ -41,7 +42,7 @@ public class RoachPopulation
     */
    public void reproduce()
    {
-	   population *= population;
+	   population *= population; 
    }
    
    /**
